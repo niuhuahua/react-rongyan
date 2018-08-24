@@ -1,7 +1,6 @@
 import httppGet from  './httpGet'
-import Server from './server';
 import httpGet from './httpGet';
-class getQuery extends Server {
+class getQuery  {
   /**
    * 获取banner图片
    */
