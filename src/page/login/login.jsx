@@ -24,10 +24,8 @@ class LoginPage extends Component {
         this.setState(newState)
         console.log(this.state)
     }
-     toLogin = async ()=>{
-        let baseData = { "Head": {"service": "userLogin"},"Body":{"userLogin":{"loginId":this.state.account,"imageCode":this.state.imgCode,"pwd":this.state.pwd} }} 
-        let res =  await httpGet(baseData)
-        console.log(res)
+     toLogin =   ()=>{
+     //登录方法
     }
     render(){
         return(
